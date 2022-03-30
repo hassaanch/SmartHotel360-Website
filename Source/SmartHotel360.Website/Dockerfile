@@ -1,8 +1,8 @@
-FROM microsoft/dotnet:2.2.0-preview2-aspnetcore-runtime-alpine3.8 AS base
+FROM mcr.microsoft.com/dotnet/runtime:3.1-alpine AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/dotnet:2.2.100-preview1-sdk-alpine AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.1-alpine AS build
 ENV BuildingDocker true
 WORKDIR /src
 COPY SmartHotel360.Website.csproj .
