@@ -1,15 +1,15 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "<Storage Account Connection String>",
-    "AzureWebJobsDashboard": "<Storage Account Connection String>",
-    "cosmos_uri": "<Cosmos DB (SQL API) URL (eg. https://petpictureuploadmetadata.documents.azure.com:443/)>",
-    "cosmos_key": "<Cosmos DB (SQL API) Key>",
-    "constr": "<Cosmos DB (SQL API) Connection String>",
-    "MicrosoftVisionApiKey": "<Cognitive Services Vision API Key>",
-    "MicrosoftVisionApiEndpoint": "<Cognitive Services Vision API URL (eg. https://southcentralus.api.cognitive.microsoft.com/vision/v1.0)>",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=webstorage732ackjbqhj4s;AccountKey=Ft49/df8xBt+4oV3mnTgdxFNXanYFaaxyl4OiOlve8fczWTeo5dACjO8Wc4EObfB9Jkwdtw0HUGaeY1hLf/U4A==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=webstorage732ackjbqhj4s;AccountKey=Ft49/df8xBt+4oV3mnTgdxFNXanYFaaxyl4OiOlve8fczWTeo5dACjO8Wc4EObfB9Jkwdtw0HUGaeY1hLf/U4A==;EndpointSuffix=core.windows.net",
+    "cosmos_uri": "https://websitecosmosdb732ackjbqhj4s.documents.azure.com:443/",
+    "cosmos_key": "3GihFtRjkWwKvK5rWcDWPyW4Pmah6LSGps3LUZZ2Ysrcgw7SGU8FkafTzoU28BpO06PioqqwEmXmgj7p0Bexxw==",
+    "constr": "AccountEndpoint=https://websitecosmosdb732ackjbqhj4s.documents.azure.com:443/;AccountKey=3GihFtRjkWwKvK5rWcDWPyW4Pmah6LSGps3LUZZ2Ysrcgw7SGU8FkafTzoU28BpO06PioqqwEmXmgj7p0Bexxw==;",
+    "MicrosoftVisionApiKey": "1db8f1bfd821478db01aa03b268d7fc2",
+    "MicrosoftVisionApiEndpoint": "https://westus.api.cognitive.microsoft.com/",
     "MicrosoftVisionNumTags": "10",
-    "AzureSignalRConnectionString": "<Connection String to the SignalR Service instance>",
+    "AzureSignalRConnectionString": "Endpoint=https://websignalr732ackjbqhj4s.service.signalr.net;AccessKey=HIRPcgNe9qHRR2KrIpYqBgEfnJhAIgB7bM0srtJc2uE=;Version=1.0;",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet"
   },
   "Host": {
