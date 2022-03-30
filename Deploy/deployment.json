@@ -9,7 +9,7 @@
   },
   "variables": {
     "cosmosdb_name": "[concat('websitecosmosdb',uniqueString(resourceGroup().id))]",
-    "function_name": "[concat('webfunction',uniqueString(resourceGroup().id))]",
+    "function_name": "webfunction732ackjbqhj4s",
     "storage_name": "[concat('webstorage',uniqueString(resourceGroup().id))]",
     "vision_name": "[concat('webvisionapi',uniqueString(resourceGroup().id))]",
     "website_name": "[concat('smarthotel360',uniqueString(resourceGroup().id))]",
